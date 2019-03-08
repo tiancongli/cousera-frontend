@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, 'Times New Roman', Times, serif;
+}
+section > div {
+  height: 700px;
+}
+
+ul.navbar-nav {
+  background-color: rgb(112, 112, 84);
+  margin: 0px -15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+li {
+  border: 1px black solid;
+}
+
+.box {
+  margin: 15px 20px;
+  padding: 15px 15px;
+  background-color: grey;
+}
+
+#nav-content {
+  background-color: gainsboro;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+
+.navbar-brand > h1 {
+  margin: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  vertical-align: middle;
+}
+ section.row p > a {
+   color: rgb(49, 49, 143);
+   text-decoration: underline;
+ }
+
+ section.row p > a:hover {
+   color: rgb(91, 91, 236);
+   text-decoration: underline;
+ }
